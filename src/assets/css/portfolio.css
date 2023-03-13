@@ -1,0 +1,147 @@
+.intro-section{
+    width: 100%;
+    height: 60vh !important;
+}
+
+#intro-section-left{
+    display: flex !important;
+    flex-direction: column;
+    background-color: transparent;
+    border: none;
+    height: 60vh;
+    padding: 0px 0px 0px 30px;
+    justify-content: center;  
+}
+
+#intro-section-right{
+    display: flex !important;
+    flex-direction: column;
+    background-color: transparent;
+    height: 60vh;
+    border: none;
+    padding: 30px 30px 30px 30px;
+}
+
+#section-left-body{
+    border: none;
+    margin-top: 10px;
+    margin-right: 5px;
+    background-color: transparent;
+}
+
+#title{
+    text-align: left;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#job-title{
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(223, 121, 43);
+}
+
+#summary{
+    text-align: left;
+    font-weight: normal;
+    margin-bottom: 50px;
+    border: #000;
+}
+
+
+#contact-card{
+    height:80px;
+    width: 100%;
+    flex-direction: row;
+    background-color: #ac99dd;
+    box-shadow: 2px 2px 0 0 #000;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#profile-picture{
+    background-color: #353428;
+    border: 1px solid  #000 !important;
+    box-shadow: 2px 2px 0 0 #000;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+#about-section-col{
+    /* background-image: url("/public/images/About\ Me\ \(7\).png"); */
+    background-repeat: no-repeat !important;
+    background-size: 100%; 
+    margin-top: 0em !important;
+    border: 1px solid  #000 !important;
+    border-radius: 2%;
+}
+
+#about-card{
+    margin-top: 2em;
+    background-color: transparent;
+    border: none;
+    align-self: center;
+}
+#about-card-title{
+    text-align: left;
+    font-size: 32px;
+    font-style: italic;
+    padding-left: 16px;
+}
+
+#about-section-body{
+    text-align: left;
+}
+
+
+.nav-link{
+    font-size: 16px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    font-weight: bold !important;
+    color:black!important;   
+}
+
+.nav-pills .nav-link.active{
+    background-color: #ac99dd !important;
+}
+
+/* Project page css */
+
+.project-card{
+    display: flex;
+    flex-direction: column;
+    padding: 0% 0% 0% 0%!important;
+    text-align: left;
+    width: 60% !important;
+    border: 1px solid black !important;
+    border-radius: 2%;
+    background-color: transparent !important;
+}
+
+.project-col{
+    padding-top: 30px;
+}
+
+
+.project-details{
+    padding: 2%;
+}
+
+
+.tech-stack-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ac99dd;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+
+
+
+
+
