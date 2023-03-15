@@ -1,41 +1,24 @@
 import React from "react";
 import '../assets/css/portfolio.css';
-import {Container, Row, Col, Image} from 'react-bootstrap';
+import {Container, Row, Col} from 'react-bootstrap';
+import ProjectCard from "../components/ProjectCard";
+import data from "../data/projectsData"
 
-const ProjectCard = () =>{
-    return(
-        <Container className="project-card">
-            {/* <div className="project-img-div">
-                <Image alt="project-image" className="project-img" src="images/github.svg"></Image>
-            </div > */}
-
-            <div className="project-details">
-                <h5 className="project-title">Project Name</h5>
-                <a href="/"><Image src="/icons/github.svg" alt="github"></Image></a>
-                <p className="project-description"> Make it easier for my families to collect, share, plan, and cook our home recipes. Features: Upload and convert</p>
-            </div>
-
-            <div className="tech-stack-div">
-                <p className="project-tech-stack"> </p> 
-            </div>
-        </Container>
-    );
+const getProjects = () => {
+    let projectsList = []
+    data.projects.forEach((project, index) => {
+       projectsList.push(
+            <Row>
+                <Col className="d-flex justify-content-center align-items-center project-col col1 "> <ProjectCard {...project} {...index}/> </Col>
+            </Row>
+        )
+    })
+    return(<>{projectsList}</>)
 }
 
 const Project = () => {
     return(
-        <Container id="project-container">
-            <Row>
-                <Col className="d-flex justify-content-center align-items-center project-col col1 "> <ProjectCard/> </Col>
-            </Row>
-            <Row>
-                <Col className="d-flex justify-content-center align-items-center project-col col1 "> <ProjectCard/> </Col>
-
-            </Row>
-            <Row>
-                <Col className="d-flex justify-content-center align-items-center project-col col1 "> <ProjectCard/> </Col>
-            </Row>
-        </Container>
+        <Container id="project-container"> {getProjects()} </Container>
     );
 }
 

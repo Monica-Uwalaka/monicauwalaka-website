@@ -1,22 +1,22 @@
 const data = {
     projects:[
       {
-      name: "Monica's Website",
+        name: "Monica's Website",
         img: "",
-        github: "",
+        github: "https://github.com/Monica-Uwalaka/monicauwalaka-website",
         link: "",
         stack: [
         ],
         desc: ""
       },
       {
-      name: "ISSSRewards",
+        name: "ISSSRewards",
         img: "",
         github: "",
-        link: "",
+        link: "https://cmput401.ca/projects/ef23a5a6-c980-4b03-ae9e-4e3062c5fb93",
         stack: [
         ],
-        desc: ""
+        desc: "The ISSSRewards web application that provides a seamless process of point collection and prize redemption for the Interdepartmental Science Students’ Society at the University of Alberta. The system allows students to earn points, request prizes and view account balance at any time. The admins also have the ability to easily manage members, points, and prizes distribution through the system."
       },
   
       {
@@ -57,6 +57,9 @@ const data = {
           stack: [
           ],
           desc: ""
-        },
+      },
     ]
   }
+
+export default data;
+
