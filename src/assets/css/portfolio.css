@@ -132,17 +132,19 @@
 
 .tech-stack{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
     align-items:flex-start;
-    /* background-color: #ac99dd; */
     border-radius: 5%;
     padding: 2%;
 }
 
 .disabled{
     pointer-events: none;
-    opacity: 50%;
+    opacity: 40%;
+}
+
+.badge{
+    margin: 2px;
 }
 
 

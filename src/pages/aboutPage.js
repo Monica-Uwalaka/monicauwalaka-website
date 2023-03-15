@@ -40,7 +40,7 @@ const Content = () => {
                         </Card.Title >
                         <Card.Body id="about-section-body">
                         <p>
-                        Hello! My name is Monica, and I am a Software Engineer. As a Software Engineer, I am passionate about positively impacting people's lives through technology and software development. I graduated with a degree in Computer Science from the University of Alberta. My background in Computer Science has equipped me with problem-solving abilities that I creatively apply to design, build, and deploy efficient software solutions that meet the needs of my clients and end-users.
+                        Hello! My name is Monica, and I am a Software Engineer. I am passionate about positively impacting people's lives through software development. I graduated with a degree in Computer Science from the University of Alberta with distinction 🎉😊. My background in Computer Science has equipped me with problem-solving abilities that I creatively apply to design, build, and deploy efficient software solutions that meet the needs of my end-users.
                         I pride myself as an engineer not limited by technology or tool. I enjoy the benefits of learning that come with taking on challenging tasks and thinking outside the box. 
                         </p> 
                         <p>
