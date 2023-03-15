@@ -8,7 +8,7 @@ import Project from "./pages/projectsPage.js"
 
 function App() {
   return (
-    <Router>
+    <Router basename="/monicauwalaka-website">
       <div className="App">
         <TopNav/>
         <Routes>
