@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/monicauwalaka-website/static/css/main.104c41a4.css",
+    "main.js": "/monicauwalaka-website/static/js/main.c397b8d2.js",
+    "static/js/787.386f7c37.chunk.js": "/monicauwalaka-website/static/js/787.386f7c37.chunk.js",
+    "index.html": "/monicauwalaka-website/index.html",
+    "main.104c41a4.css.map": "/monicauwalaka-website/static/css/main.104c41a4.css.map",
+    "main.c397b8d2.js.map": "/monicauwalaka-website/static/js/main.c397b8d2.js.map",
+    "787.386f7c37.chunk.js.map": "/monicauwalaka-website/static/js/787.386f7c37.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.104c41a4.css",
+    "static/js/main.c397b8d2.js"
+  ]
+}
