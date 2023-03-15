@@ -24,7 +24,7 @@ const data = {
       {
       name: "Google Page Clone",
         img: "",
-        github: "",
+        github: "https://github.com/Monica-Uwalaka/googlesearchpageclone",
         link: "",
         stack: [
           "HTML", "CSS"
