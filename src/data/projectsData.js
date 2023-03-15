@@ -22,7 +22,7 @@ const data = {
       },
   
       {
-      name: "Google Page Clone",
+      name: "Google Search Clone",
         img: "",
         github: "https://github.com/Monica-Uwalaka/googlesearchpageclone",
         link: "",
