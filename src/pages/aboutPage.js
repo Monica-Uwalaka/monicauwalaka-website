@@ -1,6 +1,8 @@
 import React from "react";
 import '../assets/css/portfolio.css';
 import { Container, Row, Card, Col,Image } from "react-bootstrap";
+import data from "../data/homeData"
+
 
 const Content = () => {
     return(
@@ -9,8 +11,8 @@ const Content = () => {
             <Row  className="intro-section-row">
                 <Col>
                     <Card id="intro-section-left">
-                        <Card.Title id="title">Monica Uwalaka</Card.Title >
-                        <Card.Text id="job-title">Software Engineer</Card.Text>
+                        <Card.Title id="title">{data.introSection.name}</Card.Title >
+                        <Card.Text id="job-title">{data.introSection.jobTitle}</Card.Text>
                     </Card>
                 </Col>
                 <Col>
@@ -36,16 +38,11 @@ const Content = () => {
                 <Col id="about-section-col">
                     <Card id="about-card">
                         <Card.Title className="text-center" id="about-card-title">
-                            About Me
+                            {data.aboutSection.title}
                         </Card.Title >
                         <Card.Body id="about-section-body">
-                        <p>
-                        Hello! My name is Monica, and I am a Software Engineer. I am passionate about positively impacting people's lives through software development. I graduated with a degree in Computer Science from the University of Alberta with distinction 🎉😊. My background in Computer Science has equipped me with problem-solving abilities that I creatively apply to design, build, and deploy efficient software solutions that meet the needs of my end-users.
-                        I pride myself as an engineer not limited by technology or tool. I enjoy the benefits of learning that come with taking on challenging tasks and thinking outside the box. 
-                        </p> 
-                        <p>
-                        Asides from software-related stuff, I enjoy working out, listening to music, talking to friends, researching skincare, and learning how to live a healthy life.                        
-                        </p> 
+                        <p>{data.aboutSection.p1}</p> 
+                        <p>{data.aboutSection.p2}</p> 
                         </Card.Body>                    
                     </Card>
                 </Col>
@@ -65,8 +62,7 @@ const Content = () => {
 const About = () => {
     return(
         <>
-         <  Content/>
-            {/* <AboutSection/> */}
+         <Content/>
         </>
        
     );

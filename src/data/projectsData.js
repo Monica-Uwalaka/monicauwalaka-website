@@ -33,11 +33,12 @@ const data = {
       },
   
       // {
-      // name: "Nutrimood",
+      // name: "Tomago",
       //   img: "",
-      //   github: "",
+      //   github: "https://github.com/Monica-Uwalaka/group-project",
       //   link: "",
       //   stack: [
+      //     "React", "HTML", "CSS", "JavaScript", "TypeScript", "Python", "Django", "Django REST Framework", "Postgresql"
       //   ],
       //   desc: ""
       // },
