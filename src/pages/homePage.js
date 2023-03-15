@@ -2,6 +2,10 @@ import React from "react";
 import '../assets/css/portfolio.css';
 import { Container, Row, Card, Col,Image } from "react-bootstrap";
 import data from "../data/homeData"
+import githubLogo from "../icons/github.svg";
+import linkedinLogo from "../icons/linkedin.svg";
+import profilePicture from "../images/profile_picture.jpg";
+import gmailLogo from "../icons/email.svg"
 
 
 const Content = () => {
@@ -17,16 +21,16 @@ const Content = () => {
                 </Col>
                 <Col>
                     <Card id="intro-section-right">
-                        <Card.Img id ='profile-picture' src="/profile_picture.jpg"/>
+                        <Card.Img id ='profile-picture' src={profilePicture}/>
                         <Card id="contact-card">
                             <Card.Link href="https://github.com/Monica-Uwalaka">
-                                <Image src="/github.svg"></Image>
+                                <Image src={githubLogo}></Image>
                             </Card.Link>
                             <Card.Link href="https://www.linkedin.com/in/monica-uwalaka/">
-                                <Image src="/linkedin.svg"></Image>
+                                <Image src={linkedinLogo}></Image>
                             </Card.Link>
                             <Card.Link href="mailto:uwalakamo@gmail.com">
-                                <Image src="/email.svg"></Image>
+                                <Image src={gmailLogo}></Image>
                             </Card.Link>
                         </Card>
                     </Card>

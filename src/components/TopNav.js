@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { Link } from 'react-router-dom';
-
+import navbarLogo from "../icons/navbar_logo.svg"
 
 const TopNav = () => {
     return (
@@ -14,7 +14,7 @@ const TopNav = () => {
                 <Container >
                     <Navbar.Brand id="brand-logo"href="/about">
                         <img
-                        src="navbar_logo.svg"
+                        src={navbarLogo}
                         width="50"
                         height="50"
                         className="d-inline-block align-top"

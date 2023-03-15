@@ -29,7 +29,7 @@ const data = {
         stack: [
           "HTML", "CSS"
         ],
-        desc: "I recreated Google's search page, image search page, and advanced search page to practice working with HTML and CSS. T"
+        desc: "I recreated Google's search page, image search page, and advanced search page to practice working with HTML and CSS."
       },
     ]
   }
