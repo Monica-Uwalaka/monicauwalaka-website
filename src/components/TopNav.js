@@ -14,7 +14,7 @@ const TopNav = () => {
                 <Container >
                     <Navbar.Brand id="brand-logo"href="/about">
                         <img
-                        src="/icons/navbar_logo.svg"
+                        src="navbar_logo.svg"
                         width="50"
                         height="50"
                         className="d-inline-block align-top"

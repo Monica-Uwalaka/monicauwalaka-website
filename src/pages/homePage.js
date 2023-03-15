@@ -17,16 +17,16 @@ const Content = () => {
                 </Col>
                 <Col>
                     <Card id="intro-section-right">
-                        <Card.Img id ='profile-picture' src="/images/profile_picture.jpg"/>
+                        <Card.Img id ='profile-picture' src="/profile_picture.jpg"/>
                         <Card id="contact-card">
                             <Card.Link href="https://github.com/Monica-Uwalaka">
-                                <Image src="/icons/github.svg"></Image>
+                                <Image src="/github.svg"></Image>
                             </Card.Link>
                             <Card.Link href="https://www.linkedin.com/in/monica-uwalaka/">
-                                <Image src={"/icons/linkedin.svg"}></Image>
+                                <Image src="/linkedin.svg"></Image>
                             </Card.Link>
                             <Card.Link href="mailto:uwalakamo@gmail.com">
-                                <Image src={"/icons/email.svg"}></Image>
+                                <Image src="/email.svg"></Image>
                             </Card.Link>
                         </Card>
                     </Card>

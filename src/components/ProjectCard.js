@@ -19,8 +19,8 @@ const ProjectCard = (project, key) =>{
         <Container className="project-card">
             <Container className="project-details">
                 <h5 className="project-title">{project.name}</h5>
-                <a className={project.github ? null: "disabled"} href={project.github}><Image src="/icons/github.svg" alt="github"></Image></a>
-                <a className={project.link ? null: "disabled"} href={project.link}><Image src="/icons/link.svg" alt="link"></Image></a>
+                <a className={project.github ? null: "disabled"} href={project.github}><Image src="/github.svg" alt="github"></Image></a>
+                <a className={project.link ? null: "disabled"} href={project.link}><Image src="/link.svg" alt="link"></Image></a>
                 <p className="project-description">{project.desc}</p>
                 {getbadges(project.stack)}
             </Container>
