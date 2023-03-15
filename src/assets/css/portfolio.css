@@ -94,7 +94,6 @@
     text-align: left;
 }
 
-
 .nav-link{
     font-size: 16px !important;
     padding-left: 20px !important;
@@ -108,7 +107,6 @@
 }
 
 /* Project page css */
-
 .project-card{
     display: flex;
     flex-direction: column;
@@ -120,15 +118,13 @@
     background-color: transparent !important;
 }
 
-.project-col{
+.col{
     padding-top: 30px;
 }
-
 
 .project-details{
     padding: 2%;
 }
-
 
 .tech-stack{
     display: flex;
@@ -145,6 +141,22 @@
 
 .badge{
     margin: 2px;
+}
+
+/* Experience page css */
+.experience-card{
+    display: flex;
+    flex-direction: column;
+    padding: 0% 0% 0% 0%!important;
+    text-align: left;
+    width: 60% !important;
+    border-radius: 2%;
+    background-color: transparent !important;
+}
+
+.experience-row{
+    display: flex;
+    flex-direction: column;
 }
 
 

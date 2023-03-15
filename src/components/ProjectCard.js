@@ -10,8 +10,7 @@ const badgeColours = ['primary', 'secondary', 'success', 'danger' , 'warning' , 
         stack.forEach((element, index) => {
             badges.push(<Badge key={index} bg={badgeColours[Math.floor(Math.random() * badgeColours.length)]}>{element}</Badge>)
         });
-    }
-    
+    }    
     return badges;
  }
 

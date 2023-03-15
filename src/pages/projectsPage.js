@@ -9,7 +9,7 @@ const getProjects = () => {
     data.projects.forEach((project, index) => {
        projectsList.push(
             <Row>
-                <Col className="d-flex justify-content-center align-items-center project-col col1 "> <ProjectCard {...project} {...index}/> </Col>
+                <Col className="d-flex justify-content-center align-items-center col "> <ProjectCard {...project} {...index}/> </Col>
             </Row>
         )
     })

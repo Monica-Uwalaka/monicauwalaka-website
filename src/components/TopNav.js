@@ -29,9 +29,9 @@ const TopNav = () => {
                             <Nav.Item>
                                 <Nav.Link as={Link} eventKey="2" to="/projects">Projects</Nav.Link>
                             </Nav.Item>
-                            {/* <Nav.Item>
+                            <Nav.Item>
                                 <Nav.Link as={Link} eventKey="3" to="/experience" >Experience</Nav.Link>
-                            </Nav.Item> */}
+                            </Nav.Item>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

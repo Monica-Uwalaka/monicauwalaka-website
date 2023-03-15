@@ -48,13 +48,6 @@ const Content = () => {
                 </Col>
                 
             </Row>
-            <Row>
-                <Col id="skills-section">
-                    <Card>
-                        
-                    </Card>
-                </Col>
-            </Row>
         </Container>
     );
 }
@@ -63,8 +56,7 @@ const About = () => {
     return(
         <>
          <Content/>
-        </>
-       
+        </> 
     );
 }
 

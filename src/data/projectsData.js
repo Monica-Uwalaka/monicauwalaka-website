@@ -31,37 +31,6 @@ const data = {
         ],
         desc: "I recreated Google's search page, image search page, and advanced search page to practice working with HTML and CSS. T"
       },
-  
-      // {
-      // name: "Tomago",
-      //   img: "",
-      //   github: "https://github.com/Monica-Uwalaka/group-project",
-      //   link: "",
-      //   stack: [
-      //     "React", "HTML", "CSS", "JavaScript", "TypeScript", "Python", "Django", "Django REST Framework", "Postgresql"
-      //   ],
-      //   desc: ""
-      // },
-  
-      // {
-      //   name: "Boost",
-      //     img: "",
-      //     github: "",
-      //     link: "",
-      //     stack: [
-      //     ],
-      //     desc: ""
-      // },
-  
-      // {
-      //   name: "Tic Tac Toe",
-      //     img: "",
-      //     github: "",
-      //     link: "",
-      //     stack: [
-      //     ],
-      //     desc: ""
-      // },
     ]
   }
 
