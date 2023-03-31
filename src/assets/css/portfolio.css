@@ -75,10 +75,13 @@
     margin-top: 0em !important;
     border: 1px solid  #000 !important;
     border-radius: 2%;
+    margin-bottom:2em ;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 #about-card{
-    margin-top: 2em;
+    margin-top: 1em;
     background-color: transparent;
     border: none;
     align-self: center;
@@ -92,6 +95,7 @@
 
 #about-section-body{
     text-align: left;
+  
 }
 
 .nav-link{
