@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter as Router, Routes, Route, Navigate} from "react-router-dom";
+import {HashRouter as Router, Routes, Route, Navigate} from "react-router-dom";
 import TopNav from './components/TopNav.js'
 import Experience from './pages/experiencePage';
 import About from "./pages/homePage.js"
