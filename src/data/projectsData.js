@@ -14,7 +14,7 @@ const data = {
         name: "ISSSRewards",
         img: "",
         github: "",
-        link: "https://cmput401.ca/projects/ef23a5a6-c980-4b03-ae9e-4e3062c5fb93",
+        link: "https://cmput401.ca/projects/63e97572-37c7-4331-924e-79a888e4156c",
         stack: [
           "React", "HTML", "CSS", "JavaScript", "Python", "Django", "Django REST Framework", "Postgresql"
         ],
