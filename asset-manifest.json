@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/monicauwalaka-website/static/css/main.f2d71d92.css",
-    "main.js": "/monicauwalaka-website/static/js/main.41ea9ee5.js",
+    "main.css": "/monicauwalaka-website/static/css/main.e21ff1e2.css",
+    "main.js": "/monicauwalaka-website/static/js/main.e868d3ca.js",
     "static/js/787.386f7c37.chunk.js": "/monicauwalaka-website/static/js/787.386f7c37.chunk.js",
     "static/media/profile_picture.jpg": "/monicauwalaka-website/static/media/profile_picture.2547267c4024f730aa12.jpg",
     "static/media/navbar_logo.svg": "/monicauwalaka-website/static/media/navbar_logo.5198563ca9b1671c84141fd0686442ab.svg",
@@ -10,12 +10,12 @@
     "static/media/link.svg": "/monicauwalaka-website/static/media/link.c7370acf06fb821a23fc64a19827fd0d.svg",
     "static/media/email.svg": "/monicauwalaka-website/static/media/email.f49a8f68159a777c9615fd93d4e679da.svg",
     "static/media/linkedin.svg": "/monicauwalaka-website/static/media/linkedin.27a3f479ca1bbb0ceef19e395081fb94.svg",
-    "main.f2d71d92.css.map": "/monicauwalaka-website/static/css/main.f2d71d92.css.map",
-    "main.41ea9ee5.js.map": "/monicauwalaka-website/static/js/main.41ea9ee5.js.map",
+    "main.e21ff1e2.css.map": "/monicauwalaka-website/static/css/main.e21ff1e2.css.map",
+    "main.e868d3ca.js.map": "/monicauwalaka-website/static/js/main.e868d3ca.js.map",
     "787.386f7c37.chunk.js.map": "/monicauwalaka-website/static/js/787.386f7c37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2d71d92.css",
-    "static/js/main.41ea9ee5.js"
+    "static/css/main.e21ff1e2.css",
+    "static/js/main.e868d3ca.js"
   ]
 }
